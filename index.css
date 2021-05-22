@@ -1,0 +1,36 @@
+#clock{
+    margin: auto;
+    height: 40vw;
+    width: 40vw;
+    position: relative;
+    background-image: url(clock.jpg);
+    background-repeat: no-repeat;
+    /* bg size helps to cover whole img */
+    background-size: 100%;
+}
+#hour,#min,#sec{
+    transform-origin: bottom;
+    position: absolute;
+    background : black;
+    border-radius: 10px;
+}
+#hour{
+    height: 24%;
+    width: 3%;
+    top: 25.7%;
+    left: 48.9%;
+    
+}
+#min{
+    height: 27%;
+    width: 2%;
+    top: 22.6%;
+    left: 49.3%;
+}
+#sec{
+    height: 28%;
+    width: 1%;
+    top: 22%;
+    left: 49.85%;
+ 
+}
